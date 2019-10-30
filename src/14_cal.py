@@ -37,7 +37,7 @@ elif argumentLength == 2:
 
 elif argumentLength == 3:
   month = int(argument[1])
-  year = int(argument[2])
+  year = int(argument[2]) 
 
 else:
   print("To get calendar of the current month and year, don't pass in any arguments.\nTo get calendar of a specific month of this year, enter the month.\nTo get the calendar of a specific month of a specific year, enter the motnh and year.")
